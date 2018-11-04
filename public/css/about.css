@@ -1,0 +1,42 @@
+@charset "utf-8";
+.about-bigPic {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.business {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 56px;
+  margin-bottom: 64px;
+}
+.business h2 {
+  font-size: 28px;
+  line-height: 41px;
+  color: #3c3c3c;
+  margin-bottom: 16px;
+}
+.business p {
+  color: #afafaf;
+  font-size: 14px;
+}
+.idea {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 77px;
+}
+.idea-title {
+  height: 96px;
+  padding-top: 51px;
+}
+.idea img {
+  margin-bottom: 32px;
+}
+.idea p {
+  color: #333;
+  font-size: 16px;
+  line-height: 26px;
+}

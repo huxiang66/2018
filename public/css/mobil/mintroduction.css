@@ -1,0 +1,71 @@
+@charset "utf-8";
+.experience {
+  margin-top: 12px;
+  margin-bottom: 25px;
+  padding: 0 17px 0 7px;
+}
+.experience h2 {
+  font-size: 20px;
+  color: #000;
+  line-height: 32px;
+  font-weight: 700;
+}
+.experience p {
+  font-size: 14px;
+  color: #000;
+  line-height: 26px;
+}
+.titleBox {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ff7214;
+}
+.titleBox span {
+  width: 80px;
+  height: 30px;
+  background-color: #ff7214;
+  border-top-right-radius: 18px;
+  display: block;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+}
+.case {
+  margin-bottom: 37px;
+  padding: 0 10px;
+}
+.case img {
+  width: 48%;
+  height: 125px;
+}
+.pageNum {
+  padding: 0 10px;
+  height: 33px;
+  text-align: center;
+}
+.pageNum-left {
+  width: 80px;
+  height: 30px;
+  border: 1px solid #ffb98a;
+  color: #ffb98a;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 4px;
+}
+.pageNum-mid {
+  display: inline;
+  line-height: 33px;
+}
+.pageNum-mid span {
+  margin-right: 10px;
+}
+.pageNum-right {
+  width: 80px;
+  height: 30px;
+  border: 1px solid #ffb98a;
+  color: #ffb98a;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 4px;
+}

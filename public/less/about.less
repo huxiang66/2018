@@ -1,0 +1,45 @@
+@charset "utf-8";
+@import "z";
+@import "css3";
+@import "variable";
+
+.about-bigPic{
+	width: @comWidth;
+	.bc();
+}
+.business{
+	width: @comWidth;
+	.bc();
+	.tc();
+	margin-top: 56px;
+	margin-bottom: 64px;
+	h2{
+		.font-s28;
+		line-height: 41px;
+		color: rgb(60, 60, 60);
+		margin-bottom: 16px;
+
+	}
+	p{
+		color: rgb(175, 175, 175);
+		.font-s14; 
+	}
+}
+
+.idea{
+	width: @comWidth;
+	.bc();
+	margin-bottom: 77px;
+	&-title{
+		height: 96px;
+		padding-top: 51px;
+	}
+	img{
+		margin-bottom: 32px;
+	}
+	p{
+		color: #333;
+		.font-s16;
+		line-height: 26px;
+	}
+}

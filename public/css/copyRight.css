@@ -1,0 +1,96 @@
+@charset "utf-8";
+/*变量*/
+.copyRight {
+  width: 100%;
+  height: 270px;
+  background-color: #262728;
+  border-bottom: 1px solid #4d4d4d;
+  *zoom: 1;
+  /*定义混合*/
+}
+.copyRight:before,
+.copyRight:after {
+  display: table;
+  content: "";
+}
+.copyRight:after {
+  clear: both;
+}
+.copyRight-inner {
+  width: 960px;
+  *zoom: 1;
+  margin-left: auto;
+  margin-right: auto;
+}
+.copyRight-inner:before,
+.copyRight-inner:after {
+  display: table;
+  content: "";
+}
+.copyRight-inner:after {
+  clear: both;
+}
+.copyRight-inner-one {
+  float: left;
+  display: inline;
+  width: 240px;
+}
+.copyRight-inner-one-head {
+  color: #666666;
+  font-size: 16px;
+  height: 24px;
+  line-height: 24px;
+  margin-bottom: 23px;
+  margin-top: 64px;
+}
+.copyRight-inner-one-text {
+  font-size: 12px;
+  height: 24px;
+  line-height: 24px;
+  color: #666666;
+}
+.copyRight-inner-two {
+  margin-left: 132px;
+  width: 200px;
+  float: left;
+  display: inline;
+}
+.copyRight-inner-two-head {
+  color: #666666;
+  font-size: 16px;
+  height: 24px;
+  line-height: 24px;
+  margin-bottom: 23px;
+  margin-top: 64px;
+}
+.copyRight-inner-two-text {
+  font-size: 12px;
+  height: 24px;
+  line-height: 24px;
+  color: #666666;
+}
+.copyRight-inner-two-tel {
+  font-size: 20px;
+  margin-top: -19px;
+  color: #666666;
+}
+.copyRight-inner-three {
+  width: 90px;
+  float: right;
+  display: inline;
+  margin-left: 100px;
+}
+.copyRight-inner-three-head {
+  color: #666666;
+  font-size: 16px;
+  height: 24px;
+  line-height: 24px;
+  margin-bottom: 23px;
+  margin-top: 64px;
+}
+.copyRight-inner-three-text {
+  font-size: 12px;
+  height: 24px;
+  line-height: 24px;
+  color: #666666;
+}

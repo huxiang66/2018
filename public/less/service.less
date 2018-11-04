@@ -1,0 +1,45 @@
+@charset "utf-8";
+@import "z";
+@import "css3";
+@import "variable";
+
+.service-bigPic{
+	width: @comWidth;
+	.bc();
+}
+.service-title{
+	width: @comWidth;
+	.bc();
+	height: 103px;
+	padding-top: 32px;
+}
+.picBox{
+	width: @comWidth;
+	margin-bottom: 51px;
+
+	.font-s0;
+	.bc();
+	&-wrap{
+		width: 227px;
+		margin-right: 13px;
+		.dib();
+		&-top{
+				overflow: hidden;
+			img{
+				transition:.5s;
+				&:hover{
+					transform:translateX(-10px);
+				}
+			}
+		}
+		&-text{
+			.tc();
+			color: #2e2e2e;
+			.font-s14;
+			margin-top: 13px;
+		}
+	}
+	div.marginRight-remove{
+		margin-right: 0;
+	}
+}

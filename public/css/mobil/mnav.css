@@ -1,0 +1,63 @@
+@charset "utf-8";
+.mnav {
+  width: 100%;
+  height: 41px;
+  border-top: 1px solid #ff7214;
+  border-bottom: 1px solid #ff7214;
+}
+.mnav li {
+  float: left;
+  display: inline;
+  width: 20%;
+  font-size: 11px;
+  text-align: center;
+  line-height: 40px;
+  color: #ff7214;
+}
+.mcarousel {
+  width: 100%;
+  height: 156px;
+  *zoom: 1;
+}
+.mcarousel:before,
+.mcarousel:after {
+  display: table;
+  content: "";
+}
+.mcarousel:after {
+  clear: both;
+}
+.mcarousel .carousel-indicators li {
+  width: 7px;
+  height: 8px;
+  border-radius: 3px;
+}
+.mcarousel .mcarousel-caption {
+  position: absolute;
+  left: 50px;
+  top: 62px;
+}
+.mcarousel .mcarousel-caption p {
+  line-height: 20px;
+}
+.mcarousel .item img {
+  width: 100%;
+  height: 156px;
+}
+.mcarousel .mcaption-firse {
+  line-height: 11px;
+}
+.mcarousel .mcaption-firse h3 {
+  width: 75%;
+  background-color: #eda513;
+  color: #000;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+}
+.mcarousel .mcaption-second p {
+  color: #70acbd;
+}
+.mcarousel .mcaption-second h3 {
+  font-size: 18px;
+}

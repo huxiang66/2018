@@ -1,0 +1,31 @@
+@charset "utf-8";
+@import "z";
+@import "css3";
+@import "variable";
+.business-body{
+		width: @comWidth;
+		.bc();
+		.clearfix();
+		&-box{
+			width: 25%;
+			.fl();
+			img{
+				.db();
+				.bc();
+				.tc();
+			}
+		}
+		&-box-head{
+			.font-s15;
+			color:#4f4f4f;
+			.tc();
+			margin-top: 32px;
+			margin-bottom: 24px;
+		} 
+		&-box-text{
+			.font-s12;
+			color:#ada5a5;
+			line-height: 21px;
+			.tc();
+		}
+	}

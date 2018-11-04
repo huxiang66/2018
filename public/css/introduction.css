@@ -1,0 +1,101 @@
+@charset "utf-8";
+.introduction-bigPic {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.experience {
+  width: 960px;
+  height: 363px;
+  margin-top: 66px;
+  margin-bottom: 82px;
+  margin-left: auto;
+  margin-right: auto;
+  *zoom: 1;
+}
+.experience:before,
+.experience:after {
+  display: table;
+  content: "";
+}
+.experience:after {
+  clear: both;
+}
+.experience-left {
+  width: 50%;
+  float: left;
+  display: inline;
+  padding-right: 32px;
+}
+.experience-left h1 {
+  color: #292929;
+  font-size: 26px;
+  line-height: 28px;
+  margin-top: 71px;
+  margin-bottom: 34px;
+}
+.experience-left p {
+  color: #676767;
+  font-size: 15px;
+  line-height: 28px;
+}
+.experience-right {
+  width: 50%;
+  float: right;
+  display: inline;
+}
+.experience-right-top {
+  margin-bottom: 11px;
+}
+.experience-right-top img {
+  width: 235px;
+  height: 176px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+.experience-right-top img:hover {
+  -webkit-transform: translateX(-10px);
+          transform: translateX(-10px);
+}
+.experience-right-top .pic-wrap {
+  width: 235px;
+  height: 176px;
+  overflow: hidden;
+}
+/*画册设计*/
+.design {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.design-content {
+  height: 207px;
+  width: 960px;
+  margin-bottom: 60px;
+}
+.design-content img {
+  width: 357px;
+  height: 207px;
+}
+.design-content-text {
+  height: 207px;
+  width: 523px;
+  padding: ;
+}
+.design-content-text p {
+  font-size: 14px;
+  color: #626262;
+  line-height: 28px;
+}
+.design .more {
+  width: 117px;
+  height: 41px;
+  background-color: #282828;
+  color: #fff;
+  font-size: 14px;
+  display: block;
+  text-align: center;
+  line-height: 41px;
+  margin-top: 16px;
+  cursor: pointer;
+}

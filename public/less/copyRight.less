@@ -1,0 +1,73 @@
+@charset "utf-8";
+@import "z";
+@import "variable";
+
+/*变量*/
+
+.copyRight{
+	@fontColor:#666666;
+	@copyRightheight:24px; 
+	width: @width100;
+	height: 270px;
+	background-color: #262728;
+	border-bottom: 1px solid #4d4d4d;
+	.clearfix();
+	/*定义混合*/
+	.coprRight-head(){
+		color:@fontColor;
+		.font-s16();
+		height:@copyRightheight;
+		line-height: @copyRightheight;
+		margin-bottom: 23px;
+		margin-top: 64px; 
+	}
+	.coprRight-text(){
+		.font-s12();
+		height:@copyRightheight;
+		line-height:@copyRightheight;
+		color:@fontColor; 
+	}
+	&-inner{
+		width: @comWidth;
+		.clearfix();
+		.bc();
+	}
+	&-inner-one{
+		.fl();
+		width:240px;
+		&-head{
+			.coprRight-head();
+		}
+		&-text{
+			.coprRight-text()
+		}
+	}
+	&-inner-two{
+		margin-left: 132px;
+		width: 200px;
+		.fl();
+		&-head{
+			.coprRight-head();
+		}
+		&-text{
+			.coprRight-text()
+		}
+		&-tel{
+			.font-s20();
+			margin-top: -19px;
+			color:@fontColor; 
+		}
+	}
+	&-inner-three{
+		width: 90px;
+		.fr();
+		margin-left: 100px;
+		&-head{
+			.coprRight-head();
+		}
+		&-text{
+			.coprRight-text()
+		}
+	}
+
+}

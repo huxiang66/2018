@@ -1,0 +1,46 @@
+@charset "utf-8";
+.contact-bigPci {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact-textArea {
+  width: 960px;
+  margin-top: 72px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.contact-textArea h2 {
+  color: #222222;
+  font-size: 30px;
+  margin-bottom: 39px;
+}
+.contact-textArea-chinese {
+  color: #2b2b2b;
+  font-size: 16px;
+  line-height: 28px;
+}
+.contact-textArea-english {
+  color: #9a9a9a;
+  line-height: 28px;
+  font-size: 12px;
+}
+.phone {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 96px;
+  margin-top: 60px;
+}
+.phone-box {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+}
+.phone-box p {
+  color: #23282f;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 35px;
+}
